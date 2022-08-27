@@ -1,7 +1,7 @@
-﻿int number1 = new Random().Next(1, 100);
-int number2 = new Random().Next(1, 100);
+﻿int a = -9;
+int b = -3;
 
-if (number1 > number2)
-    Console.Write($"number1 = {number1}, number2 = {number2}. Вывод ->  {number1} > {number2}");
+if (a > b)
+    Console.Write($"a = {a}; b = {b} -> max = {a}");
 else
-    Console.Write($"number1 = {number1}, number2 = {number2}. Вывод ->  {number2} > {number1}");
+    Console.Write($"a = {a}; b = {b} -> max = {b}");
