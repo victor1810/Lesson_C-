@@ -1,8 +1,9 @@
-﻿int number = 0;
-int b = 0;
-Console.Write("Введите числои степень: ");
+﻿Console.Write("\nВведите число: ");
+int numbers = int.Parse(Console.ReadLine());
+int count = 1;
 
-if (int.TryParse(Console.ReadLine(), out number) && int.TryParse(Console.ReadLine(), out b))
-    Console.Write($"sqr of {number, b});
-
-Console.Write($"numbers = {numbers * numbers}");
+while (count < 11)
+{
+    Console.WriteLine($"{numbers} x {count} = " + numbers * count);
+    count++;
+}
